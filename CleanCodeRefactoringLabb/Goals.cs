@@ -3,21 +3,25 @@ namespace CleanCodeRefactoringLabb
 {
     public class Goals
     {
-        public static string makeGoal()
+		public static int makeGoal()
+        // public static string makeGoal()
 		{
-			Random randomGenerator = new Random();
-			string goal = "";
-			for (int i = 0; i < 4; i++)
-			{
-				int random = randomGenerator.Next(10);
-				string randomDigit = "" + random;
-				while (goal.Contains(randomDigit))
-				{
-					random = randomGenerator.Next(10);
-					randomDigit = "" + random;
-				}
-				goal = goal + randomDigit;
-			}
+			// Random randomGenerator = new Random();
+			// string goal = "";
+			// for (int i = 0; i < 4; i++)
+			// {
+			// 	int random = randomGenerator.Next(10);
+			// 	string randomDigit = "" + random;
+			// 	while (goal.Contains(randomDigit))
+			// 	{
+			// 		random = randomGenerator.Next(10);
+			// 		randomDigit = "" + random;
+			// 	}
+			// 	goal = goal + randomDigit;
+			// }
+			// return goal;
+			Random randomGenerator = new Random(); 
+			int goal = randomGenerator.Next(1000, 10000);
 			return goal;
 		}
 

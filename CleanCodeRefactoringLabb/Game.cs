@@ -10,7 +10,7 @@ namespace CleanCodeRefactoringLabb
         public void Play(string name) {
             string answer;
 			do {
-				string goal = Goals.makeGoal();
+				string goal = Goals.makeGoal().ToString();
 
 				Console.WriteLine("New game:\n");
 				//comment out or remove next line to play real games!
