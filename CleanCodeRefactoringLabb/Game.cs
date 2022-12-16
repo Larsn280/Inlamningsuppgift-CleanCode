@@ -17,22 +17,22 @@ namespace CleanCodeRefactoringLabb
 				Console.WriteLine("For practice, number is: " + goal + "\n");
 				string guess = Console.ReadLine();
 				
-				int nGuess = 1;
-				string bbcc = Goals.checkBC(goal, guess);
-				Console.WriteLine(bbcc + "\n");
-				while (bbcc != "BBBB,")
+				int numberOfGuesses = 1;
+				string goalCheck = Goals.checkBC(goal, guess);
+				Console.WriteLine(goalCheck + "\n");
+				while (goalCheck != "BBBB,")
 				{
-					nGuess++;
+					numberOfGuesses++;
 					guess = Console.ReadLine();
 					Console.WriteLine(guess + "\n");
-					bbcc = Goals.checkBC(goal, guess);
-					Console.WriteLine(bbcc + "\n");
+					goalCheck = Goals.checkBC(goal, guess);
+					Console.WriteLine(goalCheck + "\n");
 				}
 				StreamWriter output = new StreamWriter("result.txt", append: true);
-				output.WriteLine(name + "#&#" + nGuess);
+				output.WriteLine(name + "#&#" + numberOfGuesses);
 				output.Close();
 				TopList.showTopList();
-				Console.WriteLine("Correct, it took " + nGuess + " guesses\nContinue?");
+				Console.WriteLine("Correct, it took " + numberOfGuesses + " guesses\nContinue? Press any key, else q to exit");
 				answer = Console.ReadLine();
 			} while(answer != "q");
         }
