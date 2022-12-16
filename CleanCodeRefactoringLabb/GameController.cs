@@ -5,6 +5,7 @@ namespace CleanCodeRefactoringLabb
     {
         private readonly Game _game;
         private readonly IUI _ui;
+        private Dictionary<string, Action> commands;
         public GameController(Game game, IUI ui) {
             _game = game;
             _ui = ui;
@@ -13,8 +14,8 @@ namespace CleanCodeRefactoringLabb
         public void Run() {
             do {
                 display();
-                string name = _ui.GetString();
-                _game.Play(name);
+                string input = _ui.GetString();
+                _game.Play(input);
             } while (true);
         }
 

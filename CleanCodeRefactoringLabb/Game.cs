@@ -8,13 +8,10 @@ namespace CleanCodeRefactoringLabb
 		}
 
         public void Play(string name) {
-            bool playOn = true;
-			
-            while (playOn)
-			{
+            string answer;
+			do {
 				string goal = Goals.makeGoal();
 
-				
 				Console.WriteLine("New game:\n");
 				//comment out or remove next line to play real games!
 				Console.WriteLine("For practice, number is: " + goal + "\n");
@@ -36,12 +33,8 @@ namespace CleanCodeRefactoringLabb
 				output.Close();
 				TopList.showTopList();
 				Console.WriteLine("Correct, it took " + nGuess + " guesses\nContinue?");
-				string answer = Console.ReadLine();
-				if (answer != null && answer != "" && answer.Substring(0, 1) == "n")
-				{
-					playOn = false;
-				}
-			}
+				answer = Console.ReadLine();
+			} while(answer != "q");
         }
     }
 }
