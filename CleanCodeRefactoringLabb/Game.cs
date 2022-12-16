@@ -3,12 +3,14 @@ namespace CleanCodeRefactoringLabb
 {
     public class Game
     {
-        public void Play() {
-            bool playOn = true;
-			Console.WriteLine("Enter your user name:\n");
-			string name = Console.ReadLine();
+		public string Welcome() {
+			return "Enter your user name:\n";
+		}
 
-			while (playOn)
+        public void Play(string name) {
+            bool playOn = true;
+			
+            while (playOn)
 			{
 				string goal = Goals.makeGoal();
 
