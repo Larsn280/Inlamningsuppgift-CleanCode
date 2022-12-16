@@ -18,14 +18,14 @@ namespace CleanCodeRefactoringLabb
 				string guess = Console.ReadLine();
 				
 				int numberOfGuesses = 1;
-				string goalCheck = Goals.checkBC(goal, guess);
+				string goalCheck = Goals.checkGuess(goal, guess);
 				Console.WriteLine(goalCheck + "\n");
-				while (goalCheck != "BBBB,")
+				while (goalCheck != "RRRR,")
 				{
 					numberOfGuesses++;
 					guess = Console.ReadLine();
 					Console.WriteLine(guess + "\n");
-					goalCheck = Goals.checkBC(goal, guess);
+					goalCheck = Goals.checkGuess(goal, guess);
 					Console.WriteLine(goalCheck + "\n");
 				}
 				StreamWriter output = new StreamWriter("result.txt", append: true);

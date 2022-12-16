@@ -5,7 +5,6 @@ namespace CleanCodeRefactoringLabb
     {
         private readonly Game _game;
         private readonly IUI _ui;
-        private Dictionary<string, Action> commands;
         public GameController(Game game, IUI ui) {
             _game = game;
             _ui = ui;
