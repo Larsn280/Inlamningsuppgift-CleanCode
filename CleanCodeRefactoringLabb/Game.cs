@@ -11,8 +11,8 @@ namespace CleanCodeRefactoringLabb
             string answer;
 			do {
 				string goal = Goals.makeGoal().ToString();
-
-				Console.WriteLine("New game:\n");
+				
+                Console.WriteLine("New game:\n");
 				//comment out or remove next line to play real games!
 				Console.WriteLine("For practice, number is: " + goal + "\n");
 				string guess = Console.ReadLine();
@@ -33,6 +33,7 @@ namespace CleanCodeRefactoringLabb
 				output.Close();
 				TopList.showTopList();
 				Console.WriteLine("Correct, it took " + numberOfGuesses + " guesses\nContinue? Press any key, else q to exit");
+				goal = "";
 				answer = Console.ReadLine();
 			} while(answer != "q");
         }
