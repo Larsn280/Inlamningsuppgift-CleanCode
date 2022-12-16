@@ -1,0 +1,15 @@
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\bin\Debug\net7.0\CleanCodeRefactoringLabb.exe
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\bin\Debug\net7.0\CleanCodeRefactoringLabb.deps.json
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\bin\Debug\net7.0\CleanCodeRefactoringLabb.runtimeconfig.json
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\bin\Debug\net7.0\CleanCodeRefactoringLabb.dll
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\bin\Debug\net7.0\CleanCodeRefactoringLabb.pdb
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.csproj.AssemblyReference.cache
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.AssemblyInfoInputs.cache
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.AssemblyInfo.cs
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.csproj.CoreCompileInputs.cache
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.dll
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\refint\CleanCodeRefactoringLabb.dll
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.pdb
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\CleanCodeRefactoringLabb.genruntimeconfig.cache
+C:\Users\Lars\Kurs Clean Code\Code C#\Inlamningsuppgift CleanCode\CleanCodeRefactoringLabb\obj\Debug\net7.0\ref\CleanCodeRefactoringLabb.dll
