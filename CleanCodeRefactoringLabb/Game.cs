@@ -3,7 +3,7 @@ namespace CleanCodeRefactoringLabb
 {
     public class Game
     {
-        public void Play(string name) {
+        public void MooGame(string name) {
             string answer;
 			do {
 				string goal = Goals.MakeGoal().ToString();

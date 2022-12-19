@@ -17,7 +17,7 @@ namespace CleanCodeRefactoringLabb
                 input = _ui.GetString();
                 if(input != "q") {
                     _ui.Clear();
-                    _game.Play(input);
+                    _game.MooGame(input);
                 }
             } while (input != "q");
         }
