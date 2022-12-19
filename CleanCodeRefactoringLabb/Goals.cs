@@ -12,17 +12,17 @@ namespace CleanCodeRefactoringLabb
 
 		public static string CheckGuess(string goal, string guess)
 		{
-			int rightGuess = 0;
-			int wrongGuess = 0;
+			int bulls = 0;
+			int cows = 0;
 			guess += "    ";
 			for(int i = 0; i < 4; i++) {
 				if (goal[i] == guess[i]) {
-					rightGuess++;
+					bulls++;
 				} else {
-					wrongGuess++;
+					cows++;
 				}
 			}
-			return "RRRR".Substring(0, rightGuess) + "," + "WWWW".Substring(0, wrongGuess);
+			return "BBBB".Substring(0, bulls) + "," + "CCCC".Substring(0, cows);
 		}
     }
 }

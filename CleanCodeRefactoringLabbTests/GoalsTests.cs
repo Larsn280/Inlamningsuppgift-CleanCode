@@ -18,8 +18,8 @@ namespace CleanCodeRefactoringLabb.Tests
             string rightGuessTest = "1234";
             string wrongGuessTest = "2111";
             string goal = "1234";
-            Assert.AreEqual("RRRR,", Goals.CheckGuess(goal, rightGuessTest));
-            Assert.AreEqual(",WWWW", Goals.CheckGuess(goal, wrongGuessTest));
+            Assert.AreEqual("BBBB,", Goals.CheckGuess(goal, rightGuessTest));
+            Assert.AreEqual(",CCCC", Goals.CheckGuess(goal, wrongGuessTest));
         }
     }
 }
