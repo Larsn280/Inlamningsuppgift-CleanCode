@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj": {}
+    "c:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj": {
+    "c:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj",
+        "projectUniqueName": "c:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj",
         "projectName": "CleanCodeRefactoringLabb",
-        "projectPath": "C:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj",
+        "projectPath": "c:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\CleanCodeRefactoringLabb.csproj",
         "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\obj\\",
+        "outputPath": "c:\\Users\\Lars\\Kurs Clean Code\\Code C#\\Inlamningsuppgift CleanCode\\CleanCodeRefactoringLabb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
