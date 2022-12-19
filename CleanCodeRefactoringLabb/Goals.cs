@@ -10,7 +10,7 @@ namespace CleanCodeRefactoringLabb
 			return goal;
 		}
 
-		public static string CheckGuess(string goal, string guess)
+		public static string CheckBullsAndCows(string goal, string guess)
 		{
 			int bulls = 0;
 			int cows = 0;

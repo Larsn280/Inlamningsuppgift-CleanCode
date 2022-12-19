@@ -14,14 +14,14 @@ namespace CleanCodeRefactoringLabb
 				string guess = Console.ReadLine();
 				
 				int numberOfGuesses = 1;
-				string goalCheck = Goals.CheckGuess(goal, guess);
+				string goalCheck = Goals.CheckBullsAndCows(goal, guess);
 				Console.WriteLine(goalCheck + "\n");
 				while (goalCheck != "BBBB,")
 				{
 					numberOfGuesses++;
 					guess = Console.ReadLine();
 					Console.WriteLine(guess + "\n");
-					goalCheck = Goals.CheckGuess(goal, guess);
+					goalCheck = Goals.CheckBullsAndCows(goal, guess);
 					Console.WriteLine(goalCheck + "\n");
 				}
 				TopList.WriteScore(name, numberOfGuesses);
