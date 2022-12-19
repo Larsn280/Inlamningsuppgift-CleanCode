@@ -4,32 +4,32 @@ namespace CleanCodeRefactoringLabb
     public class PlayerData
     {
         public string Name { get; private set; }
-        public int NGames { get; private set; }
-		int totalGuess;
+        public int NumberOfGames { get; private set; }
+		int totalGuesses;
 		
 
 		public PlayerData(string name, int guesses)
 		{
 			this.Name = name;
-			NGames = 1;
-			totalGuess = guesses;
+			NumberOfGames = 1;
+			totalGuesses = guesses;
 		}
 
 		public void Update(int guesses)
 		{
-			totalGuess += guesses;
-			NGames++;
+			totalGuesses += guesses;
+			NumberOfGames++;
 		}
 
 		public double Average()
 		{
-			return (double)totalGuess / NGames;
+			return (double)totalGuesses / NumberOfGames;
 		}
 
 		
-	    public override bool Equals(Object p)
+	    public override bool Equals(Object player)
 		{
-			return Name.Equals(((PlayerData)p).Name);
+			return Name.Equals(((PlayerData)player).Name);
 		}
 
 		

@@ -7,6 +7,7 @@ namespace CleanCodeRefactoringLabb
 			return "Enter your user name:\n";
 		}
 
+        
         public void Play(string name) {
             string answer;
 			do {

@@ -9,7 +9,7 @@ namespace CleanCodeRefactoringLabb.Tests
         public void WelcomeTest()
         {
             Game game = new Game();
-            Assert.AreEqual("Enter your user name:\n", game.Welcome());
+            Assert.AreEqual("Press q to Exit\nor\nEnter your user name:\n", game.Welcome());
         }
     }
 }

@@ -11,11 +11,14 @@ namespace CleanCodeRefactoringLabb
         }
 
         public void Run() {
+            string input;
             do {
                 display();
-                string input = _ui.GetString();
-                _game.Play(input);
-            } while (true);
+                input = _ui.GetString();
+                if(input != "q") {
+                    _game.Play(input);
+                }
+            } while (input != "q");
         }
 
         public void display() {

@@ -27,11 +27,11 @@ namespace CleanCodeRefactoringLabb
 				
 				
 			}
-			results.Sort((player1, player2) => player1.Average().CompareTo(player2.Average()));
+			results.Sort((play1, play2) => play1.Average().CompareTo(play2.Average()));
 			Console.WriteLine("Player   games average");
 			foreach (PlayerData player in results)
 			{
-				Console.WriteLine(string.Format("{0,-9}{1,5:D}{2,9:F2}", player.Name, player.NGames, player.Average()));
+				Console.WriteLine(string.Format("{0,-9}{1,5:D}{2,9:F2}", player.Name, player.NumberOfGames, player.Average()));
 			}
 			input.Close();
 		}
