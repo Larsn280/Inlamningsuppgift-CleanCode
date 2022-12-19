@@ -6,20 +6,20 @@ namespace CleanCodeRefactoringLabb.Tests
     public class GoalsTests
     {
         [TestMethod()]
-        public void makeGoalTest()
+        public void CakeGoalTest()
         {
-            string number = Goals.makeGoal().ToString();
-            string numberLength = "    ";
-            Assert.AreEqual(number.Count(), numberLength.Count());
+            string numberTest = Goals.MakeGoal().ToString();
+            string numberLengthTest = "    ";
+            Assert.AreEqual(numberTest.Count(), numberLengthTest.Count());
         }
         [TestMethod()]
-        public void checkGuessTest()
+        public void CheckGuessTest()
         {
-            string rightGuess = "1234";
-            string wrongGuess = "2111";
+            string rightGuessTest = "1234";
+            string wrongGuessTest = "2111";
             string goal = "1234";
-            Assert.AreEqual("RRRR,", Goals.checkGuess(goal, rightGuess));
-            Assert.AreEqual(",WWWW", Goals.checkGuess(goal, wrongGuess));
+            Assert.AreEqual("RRRR,", Goals.CheckGuess(goal, rightGuessTest));
+            Assert.AreEqual(",WWWW", Goals.CheckGuess(goal, wrongGuessTest));
         }
     }
 }

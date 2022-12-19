@@ -3,14 +3,14 @@ namespace CleanCodeRefactoringLabb
 {
     public class Goals
     {
-		public static int makeGoal()
+		public static int MakeGoal()
 		{
 			Random randomGenerator = new Random(); 
 			int goal = randomGenerator.Next(1000, 10000);
 			return goal;
 		}
 
-		public static string checkGuess(string goal, string guess)
+		public static string CheckGuess(string goal, string guess)
 		{
 			int rightGuess = 0;
 			int wrongGuess = 0;

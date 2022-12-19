@@ -3,7 +3,14 @@ namespace CleanCodeRefactoringLabb
 {
     public class TopList
     {
-        public static void showTopList()
+		public static string WriteScore(string name, int numberOfGuesses) {
+			StreamWriter output = new StreamWriter("result.txt", append: true);
+			output.WriteLine(name + "#&#" + numberOfGuesses);
+			output.Close();
+			return "Score Added";
+        }
+
+        public static void ShowTopList()
 		{
 			StreamReader input = new StreamReader("result.txt");
 			List<PlayerData> results = new List<PlayerData>();
@@ -24,8 +31,6 @@ namespace CleanCodeRefactoringLabb
 				{
 					results[position].Update(guesses);
 				}
-				
-				
 			}
 			results.Sort((play1, play2) => play1.Average().CompareTo(play2.Average()));
 			Console.WriteLine("Player   games average");

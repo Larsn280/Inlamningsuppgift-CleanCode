@@ -7,8 +7,7 @@ namespace CleanCodeRefactoringLabb
         public int NumberOfGames { get; private set; }
 		int totalGuesses;
 		
-
-		public PlayerData(string name, int guesses)
+        public PlayerData(string name, int guesses)
 		{
 			this.Name = name;
 			NumberOfGames = 1;
