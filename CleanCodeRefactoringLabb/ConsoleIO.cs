@@ -15,7 +15,7 @@ namespace CleanCodeRefactoringLabb
 
         public string GetString()
         {
-            return Console.ReadLine();
+            return Console.ReadLine()!;
         }
 
         public void PutString(string s)

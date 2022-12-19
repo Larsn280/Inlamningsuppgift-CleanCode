@@ -16,7 +16,7 @@ namespace CleanCodeRefactoringLabb
 			List<PlayerData> results = new List<PlayerData>();
 
 			string line;
-			while ((line = input.ReadLine()) != null)
+			while ((line = input.ReadLine()!) != null)
 			{
 				string[] nameAndScore = line.Split(new string[] { "#&#" }, StringSplitOptions.None);
 				string name = nameAndScore[0];

@@ -11,7 +11,7 @@ namespace CleanCodeRefactoringLabb
                 Console.WriteLine(NewGame());
 				//comment out or remove next line to play real games!
 				Console.WriteLine(Practice(goal));
-				string guess = Console.ReadLine();
+				string guess = Console.ReadLine()!;
 				
 				int numberOfGuesses = 1;
 				string goalCheck = Goals.CheckBullsAndCows(goal, guess);
@@ -19,7 +19,7 @@ namespace CleanCodeRefactoringLabb
 				while (goalCheck != "BBBB,")
 				{
 					numberOfGuesses++;
-					guess = Console.ReadLine();
+					guess = Console.ReadLine()!;
 					Console.WriteLine(guess + "\n");
 					goalCheck = Goals.CheckBullsAndCows(goal, guess);
 					Console.WriteLine(goalCheck + "\n");
@@ -27,7 +27,7 @@ namespace CleanCodeRefactoringLabb
 				TopList.WriteScore(name, numberOfGuesses);
 				TopList.ShowTopList();
 				Console.WriteLine(ResultRound(numberOfGuesses));
-				answer = Console.ReadLine();
+				answer = Console.ReadLine()!;
 			} while(answer != "q");
         }
 		
