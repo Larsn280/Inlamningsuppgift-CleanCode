@@ -6,14 +6,14 @@ namespace CleanCodeRefactoringLabb.Tests
     public class GoalsTests
     {
         [TestMethod()]
-        public void CakeGoalTest()
+        public void MakeGoalTest()
         {
             string numberTest = Goals.MakeGoal().ToString();
             string numberLengthTest = "    ";
             Assert.AreEqual(numberTest.Count(), numberLengthTest.Count());
         }
         [TestMethod()]
-        public void CheckGuessTest()
+        public void CheckBullsAndCowsTest()
         {
             string rightGuessTest = "1234";
             string wrongGuessTest = "2111";
