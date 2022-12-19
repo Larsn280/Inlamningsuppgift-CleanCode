@@ -16,7 +16,7 @@ namespace CleanCodeRefactoringLabb
 				int numberOfGuesses = 1;
 				string goalCheck = Goals.CheckGuess(goal, guess);
 				Console.WriteLine(goalCheck + "\n");
-				while (goalCheck != "RRRR,")
+				while (goalCheck != "BBBB,")
 				{
 					numberOfGuesses++;
 					guess = Console.ReadLine();
