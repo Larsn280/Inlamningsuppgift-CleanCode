@@ -7,6 +7,7 @@ namespace CleanCodeRefactoringLabb.Tests
     {
         [TestMethod()]
         public void WriteScoreTest() {
+            // Inte klar...
             string nameTest = "Testsson";
             int numberOfGuessesTest = 4;
 
