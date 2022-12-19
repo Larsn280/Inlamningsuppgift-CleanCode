@@ -44,7 +44,6 @@ namespace CleanCodeRefactoringLabb
 				output.Close();
 				TopList.showTopList();
 				Console.WriteLine(ResultRound(numberOfGuesses));
-				goal = "";
 				answer = Console.ReadLine();
 			} while(answer != "q");
         }
