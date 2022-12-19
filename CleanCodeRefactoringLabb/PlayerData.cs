@@ -26,9 +26,9 @@ namespace CleanCodeRefactoringLabb
 		}
 
 		
-	    public override bool Equals(Object player)
+	    public override bool Equals(Object? player)
 		{
-			return Name.Equals(((PlayerData)player).Name);
+			return Name.Equals(((PlayerData)player!).Name);
 		}
 
 		
