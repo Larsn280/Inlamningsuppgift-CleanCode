@@ -10,7 +10,7 @@ namespace CleanCodeRefactoringLabb.Tests
         [TestMethod()]
         public void WelcomeTest()
         {
-            Assert.AreEqual("Enter your user name:\n", game.Welcome());
+            Assert.AreEqual("Press q for Exit\nor\nEnter your user name:\n", game.Welcome());
         }
         [TestMethod()]
         public void PracticeTest()

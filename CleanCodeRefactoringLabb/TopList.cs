@@ -32,13 +32,25 @@ namespace CleanCodeRefactoringLabb
 					results[position].Update(guesses);
 				}
 			}
-			results.Sort((play1, play2) => play1.Average().CompareTo(play2.Average()));
-			Console.WriteLine("Player   games average");
-			foreach (PlayerData player in results)
-			{
-				Console.WriteLine(string.Format("{0,-9}{1,5:D}{2,9:F2}", player.Name, player.NumberOfGames, player.Average()));
-			}
+			ShowResults(results);
 			input.Close();
+		}
+
+		public static void ShowResults(List<PlayerData> results) {
+			results.Sort((play1, play2) => play1.Average().CompareTo(play2.Average()));
+			Console.WriteLine(PlayerScoresString());
+			foreach (var player in results)
+			{
+				Console.WriteLine(ResultFormatString(player.Name, player.NumberOfGames, player.Average()));
+			}
+        }
+
+		public static string ResultFormatString(string name, int numberOfGames, double average) {
+			return string.Format("{0,-9}{1,5:D}{2,9:F2}", name, numberOfGames, average);
+        }
+
+		public static string PlayerScoresString() {
+			return "Player   games average";
 		}
     }
 }

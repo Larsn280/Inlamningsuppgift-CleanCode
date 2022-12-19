@@ -32,7 +32,7 @@ namespace CleanCodeRefactoringLabb
         }
 		
 		public string Welcome() {
-			return "Enter your user name:\n";
+			return "Press q for Exit\nor\nEnter your user name:\n";
 		}
         public string NewGame() {
 			return "New game:\n";
