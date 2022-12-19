@@ -6,6 +6,16 @@ namespace CleanCodeRefactoringLabb
 		public string Welcome() {
 			return "Enter your user name:\n";
 		}
+        public string NewGame() {
+			return "New game:\n";
+		}
+		public string Practice(string goal) {
+			return "For practice, number is: " + goal + "\n";
+		}
+		public string ResultRound(int numberOfGuesses) {
+			return "Correct, it took " + numberOfGuesses + " guesses\nContinue? Press any key, else q to exit";
+		}
+
 
         
         public void Play(string name) {
@@ -13,9 +23,9 @@ namespace CleanCodeRefactoringLabb
 			do {
 				string goal = Goals.makeGoal().ToString();
 				
-                Console.WriteLine("New game:\n");
+                Console.WriteLine(NewGame());
 				//comment out or remove next line to play real games!
-				Console.WriteLine("For practice, number is: " + goal + "\n");
+				Console.WriteLine(Practice(goal));
 				string guess = Console.ReadLine();
 				
 				int numberOfGuesses = 1;
@@ -33,7 +43,7 @@ namespace CleanCodeRefactoringLabb
 				output.WriteLine(name + "#&#" + numberOfGuesses);
 				output.Close();
 				TopList.showTopList();
-				Console.WriteLine("Correct, it took " + numberOfGuesses + " guesses\nContinue? Press any key, else q to exit");
+				Console.WriteLine(ResultRound(numberOfGuesses));
 				goal = "";
 				answer = Console.ReadLine();
 			} while(answer != "q");
